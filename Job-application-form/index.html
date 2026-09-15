@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="title">Job Application Form</h1>
+  <form>
+    <fieldset>
+      <legend>Personal Information :</legend>
+      <label class="name-label" for="name">Full name:</label>
+      <input 
+      class="name-box" 
+      id="name" 
+      type="text" 
+      name="name" 
+      placeholder="E.g., Khoa Nguyen" 
+      required />
+      <label class="contact" for="email">Email:</label>
+      <input 
+      class="email-box" 
+      id="email" 
+      type="email" 
+      name="email" 
+      placeholder="penny@family.com" 
+      required />
+      <label class="contact" for="phone">Phone:</label>
+      <input 
+      class="phone-box" 
+      id="phone" 
+      type="number" 
+      name="text" 
+      placeholder="0906.xxx.xxx" 
+      required />
+    </fieldset>
+    <fieldset>
+        <legend>Work Experience</legend>
+        <label class="former-company" for="former-company">Former Company: </label>
+        <input
+        class="former-company-box"
+        id="former-company" 
+        name="former-company"
+        type="text"
+        required/>
+        <label class="most-recent-position" for="most-recent-position">Most Recent Position: </label>
+        <input 
+        class="most-recent-position-box"
+        id="most-recent-position"
+        name="most-recent-position"
+        type="text"
+        required/>
+        <br>
+        <label class="tenure" for="tenure">Tenure: </label>
+        <input 
+        class="tenure-box"
+        id="tenure"
+        name="tenure"
+        type="text"
+        required/>
+        </fieldset>
+        <fieldset>
+        <legend>Job Position</legend>
+        <label class="position" for="position">Target Position: </label>
+        <select 
+        class="position-box"
+        id="position"
+        name="position"
+        required>
+        <option 
+        
+        value="select-position">Select a position</option>
+        <option
+        
+        value="Sales-executive">Sale Executive</option>
+        <option value="Marketing">Marketing</option>
+        <option 
+        
+        value="IT">IT</option>
+        </select>
+        <br>
+        <fieldset class="radio-group">
+        <label class="availability-label">Availability:</label>
+        <input
+        class="part-time-radio"
+        id="part-time"
+        name="availability"
+        type="radio"
+        required/>
+        <label 
+        class="part-time" for="part-time">Part-time</label>
+        <input
+        class="full-time-radio"
+        id="full-time"
+        name="availability"
+        type="radio"
+        required/>
+        <label 
+        class="full-time" for="full-time">Full-time</label>
+
+       
+        </fieldset>
+        </fieldset>
+        <label class="message" for="message">Why do you want this job?</label>
+        <textarea
+        class="opinion-box"
+        id="message"
+        name="message"
+        required
+        placeholder="your opinion"
+        rows="4"
+        cols="70">
+        </textarea>
+        <button 
+        class="submit-btn"
+        type="submit">
+        Submit Form
+        </button>
+
+  </form>
+</div>
+</body>
+</html>

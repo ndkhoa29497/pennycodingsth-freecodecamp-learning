@@ -1,0 +1,171 @@
+body {
+  background-color: lavenderblush;
+  color: #2c1b2d;
+}
+.container {
+  width: 80%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 20px auto;
+  padding: 20px;
+}
+fieldset {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+fieldset legend {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-align: center;
+}
+
+.name-label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.name-box {
+  display: block;
+  width: 95%;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px; 
+  font-size: 1.1rem;
+}
+
+
+.contact {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.email-box, .phone-box {
+  display: inline-block;
+  width: 25%;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.email-box {
+  margin-right: 30px; 
+}
+
+.former-company {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  
+}
+.former-company-box {
+  display: block;
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+.most-recent-position {
+  width: 30%;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.most-recent-position-box {
+  width: 60%;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+.tenure {
+  width: 30%;
+  display: inline-block;
+  font-size: 1.2rem;
+
+}
+.tenure-box {
+  width: 60%;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.position {
+  width: 30%;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.position {
+  width: 30%;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.position-box {
+  width: 40%;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.position-box {
+  font-size: 1.1rem
+}
+.availability-label {
+  width: 30%;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.part-time, .full-time {
+  width: 25%;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.message {
+  font-size: 1.3rem;
+  font-weight: 600;
+  
+}
+.opinion-box {
+  margin: 10px 10px 10px 6px;
+  border-radius: 5px
+}
+input:focus, textarea:focus {
+outline:none;
+border-color: #2c1b2d;
+}
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red
+}
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+button:hover{
+background-color: blue
+}
+.radio-group input[type="radio"]:checked {
+  background-color: midnightblue;
+  border-color: midnightblue;
+  box-shadow: 0 1px 2px gray;
+}
+input[type="radio"]:checked + label {
+  color: blue;
+}
+input:first-of-type {
+  border-radius: 15px
+}
